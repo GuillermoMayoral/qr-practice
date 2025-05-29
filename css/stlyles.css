@@ -5,4 +5,73 @@
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+body {
+    background-color: #D5E1EF;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    height: 960px;
+    justify-content: space-between;
+}
+
+.page__main {
+    display: flex;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 320px;
+    height: 499px;
+    margin: auto;
+    background-color: #fff;
+
+    align-items: center;
+
+}
+
+.card__img {
+    height: 320px;
+    display: flex;
+}
+
+.card__qr {
+    background-size: contain;
+    width: 288px;
+    height: 288px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.card__content {
+    width: 288px;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title {
+    font-size: 22px;
+    font-weight: 700px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #1F314F;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card__text {
+    font-size: 15px;
+    font-weight: 400px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #68778D;
+    font-family: 'Outfit', sans-serif;
 }
